@@ -202,8 +202,6 @@ button a {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  /* align-items: center; */
-  /* text-align: left; */
 }
 
 .hero-rates-container .rate-figure .rate-no {
@@ -354,10 +352,6 @@ main {
 
 /* QUESTION SECTION */
 .quest-container {
-  /* display: flex;
-  flex-direction: column;
-  align-self: center;
-  justify-content: center; */
   margin: 0px auto;
   width: 1132px;
   height: auto;
@@ -429,7 +423,6 @@ main {
 
 /* FOOTER */
 footer {
-  height: 60vh;
   background-color: var(--footer-background);
   color: #fff;
 }
@@ -507,30 +500,9 @@ footer {
 }
 
 .last-text {
+  margin-bottom: 30px;
   text-align: center;
 }
-
-/* #MEDIA QUERIES
-
-/* RESPONSIVE FOR LARGER THAN 575px SCREEN */
-
-/* @media (min-width: 575px) { */
-/* CUSTOMIZE PROPERTY*/
-
-/* REFUSE STYLE */
-/* 
-  .left-side .left-content h1 {
-    font-size: 18px;
-  }
-  .left-side .logo-header {
-    width: 30px;
-  }
-  .middle-side .navbar {
-    display: none;
-  } */
-
-/* HERO */
-/* } */
 
 @media (max-width: 375px) {
   /* GENERAL STYLE */
@@ -680,42 +652,18 @@ footer {
 
   /* QUESTION */
   .quest-container {
-    /* display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center; */
-
     width: 340px;
-    height: autopx;
   }
 
-  /* .header-content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 40px;
-  } */
-
-  /* .header-content h5 {
-    color: var(--primary-color);
-    font-size: 16px;
-    margin-bottom: 8px;
-  } */
   .header-content h3 {
     width: 340px;
     height: auto;
     font-size: 1.375rem;
   }
 
-  /* .header-container .header-main {
-   align-items: flex-start;
-  } */
-
   .header-container .header-main ion-icon {
     font-size: 5rem;
     margin-top: -1.875rem;
-    /* margin-left: 76px; */
   }
 
   .header-body h3 {
@@ -734,8 +682,6 @@ footer {
   }
 
   .header-container .text-container ul li {
-    /* display: flex;
-    justify-content: space-between; */
     padding: 20px;
     margin-bottom: 24px;
   }
@@ -743,19 +689,9 @@ footer {
     font-size: 0.75rem;
   }
 
-  /* .header-end {
-    text-align: center;
-    margin-top: 16px;
-  } */
-  /* .header-end p {
-    margin-bottom: 20px;
-  }  */
-
   /* FOOTER */
 
   footer {
-    height: 80vh;
-
     width: 100%;
   }
 
@@ -770,16 +706,6 @@ footer {
   .left-part {
     gap: 8px;
   }
-
-  .logo-side {
-    /* display: flex;
-    align-items: center;
-    gap: 12px; */
-  }
-  /*   
-  .logo-side .logo-content {
-    text-align: right;
-  } */
 
   .logo-side .logo-content h1 {
     font-size: 1.5rem;
