@@ -85,6 +85,10 @@ ion-icon {
   align-items: center;
 }
 
+.navigation-bar ion-icon {
+  display: none;
+}
+
 .left-side {
   display: flex;
   gap: 12px;
@@ -535,6 +539,10 @@ footer {
     height: auto;
   }
 
+  .navigation-bar ion-icon {
+    display: block;
+  }
+
   /* LOGO */
   .left-side .left-content h1 {
     font-size: 18px;
@@ -696,7 +704,8 @@ footer {
   }
 
   .footer-list {
-    padding-inline: 30px;
+    padding-inline-start: 30px;
+    padding-inline-end: 0px;
     padding-block-start: 29px;
     padding-block-end: 86px;
     display: grid;
@@ -728,7 +737,7 @@ footer {
   }
 
   .newsletter .news-mail input {
-    padding: 12px 60px 12px 24px;
+    padding: 12px 100px 12px 24px;
     border-radius: 12px;
     background: transparent;
     border: 1px solid #fff;
@@ -739,7 +748,7 @@ footer {
     color: #fff;
   }
   .newsletter button {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .footer-nav-list ul li {
